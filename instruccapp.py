@@ -25,4 +25,4 @@ def mostrar_instrucciones():
         ### 🖼️ Ejemplo visual:
         """)
         
-        st.image("./imagenes/ejemplo1.png", caption="Ejemplo de sintaxis correcta", use_container_width=True)
+        st.image("./imagenes/ejemplo1.png", caption="sintaxis correcta meoow", use_container_width=True)
