@@ -6,7 +6,7 @@ from clasificacion import identificar_tipo
 from procedimientos import generar_pasos
 from donaciones import mostrar_donaciones
 from instruccapp import mostrar_instrucciones
-
+from anuncios import mostrar_anuncios
 
 
 # Definimos la variable simbólica
@@ -33,7 +33,7 @@ with st.sidebar:
     mostrar_donaciones()
 
 # Módulo de anuncios debajo del título proximamente ...
-# mostrar_anuncios()
+mostrar_anuncios()
 
 # El resto de tu app continúa normalmente
 
