@@ -4,17 +4,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 from clasificacion import identificar_tipo
 from procedimientos import generar_pasos
-
+from donaciones import mostrar_donaciones
 # Definimos la variable simbólica
 x = Symbol('x')
 
 # Configuración de la página
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
 st.title("🧮 Calculadora de Integrales - Paso a Paso")
-
-from donaciones import mostrar_donaciones
-
-
 
 # Sección de anuncios destacados
 
