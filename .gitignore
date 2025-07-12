@@ -1,7 +1,54 @@
+# Entorno virtual
 venv/
+.venv/
+env/
+env.bak/
+venv.bak/
+
+# Archivos compilados y caché
 __pycache__/
 *.pyc
 *.pyo
+*.py[codz]
+*$py.class
+
+# Archivos de sistema
 *.DS_Store
+
+# Archivos antiguos que ya no usas
 main.py
 main1.py
+
+# Logs y bases de datos
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Carpetas temporales
+.cache/
+.pytest_cache/
+.hypothesis/
+
+# Archivos de Jupyter y notebooks
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Carpetas de documentación
+docs/_build/
+site/
+
+# Otros editores
+.spyderproject
+.spyproject
+.ropeproject
+
+# Archivos de configuración y entornos ocultos
+.env
+.envrc
+
+# Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
