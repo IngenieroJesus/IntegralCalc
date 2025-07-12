@@ -1,0 +1,5 @@
+Dentro de cada main modificado en una nueva terminal ejecutar:
+
+.\venv\Scripts\activate
+
+streamlit run mainx.py
