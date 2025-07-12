@@ -34,7 +34,11 @@ with st.sidebar:
 
 # Módulo de anuncios debajo del título proximamente ...
 mostrar_anuncios()
-
+#Autor pie de pagina
+st.markdown("""
+---
+📌 **Autor:** [Caromhe](https://github.com/Caromhe)
+""")
 # El resto de tu app continúa normalmente
 
 # Selección del modo
