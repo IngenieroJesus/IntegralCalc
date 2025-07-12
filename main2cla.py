@@ -21,7 +21,7 @@ try:
 except Exception as e:
     st.error(f"❌ Error al cargar mostrar_instrucciones(): {e}")
 #mostrar instrucciones
-mostrar_instrucciones()
+#mostrar_instrucciones()
 # Barra lateral dedicada a apoyo
 with st.sidebar:
     mostrar_donaciones()
