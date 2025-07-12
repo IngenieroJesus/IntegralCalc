@@ -8,23 +8,20 @@ from donaciones import mostrar_donaciones
 # Definimos la variable simbólica
 x = Symbol('x')
 
-# Configuración de la página
+# Título principal
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
-st.title("🧮 Calculadora de Integrales")
+st.title("🧮 Calculadora de Integrales - Paso a Paso")
 
-# Sección de anuncios destacados
-
-
-# Layout con columna principal y columna de donaciones
-col1, col2 = st.columns([4, 1])
-
-with col1:
-    # Todo el contenido de cálculo, inputs, resultados, pasos y gráficas
-    ...
-    
-with col2:
-    # Sección de apoyo y donaciones
+# Barra lateral dedicada a apoyo
+with st.sidebar:
     mostrar_donaciones()
+
+# Módulo de anuncios debajo del título proximamente ...
+# mostrar_anuncios()
+
+# El resto de tu app continúa normalmente
+modo = st.radio("Selecciona el tipo de cálculo:", ["Integral indefinida", "Área bajo la curva"])
+...
 # Selección del modo
 modo = st.radio("Selecciona el tipo de cálculo:", ["Integral indefinida", "Área bajo la curva"])
 

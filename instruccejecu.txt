@@ -3,3 +3,10 @@ Dentro de cada main modificado en una nueva terminal ejecutar:
 .\venv\Scripts\activate
 
 streamlit run mainx.py
+_________________________________________________
+Para actualizar la aplicacion en github:
+
+git add .
+>> git commit -m "Comentario de archivos actualizados"
+>> git push origin main
+_________________________________________________
