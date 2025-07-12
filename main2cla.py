@@ -10,7 +10,7 @@ x = Symbol('x')
 
 # Configuración de la página
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
-st.title("🧮 Calculadora de Integrales - Paso a Paso")
+st.title("🧮 Calculadora de Integrales")
 
 # Sección de anuncios destacados
 
