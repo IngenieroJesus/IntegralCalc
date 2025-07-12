@@ -15,6 +15,10 @@ x = Symbol('x')
 # Título principal
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
 st.title("🧮 Calculadora de Integrales")
+st.markdown("""
+---
+📌 **Autor:** [Jesús Cáceres Romero](https://ingcivamer.blogspot.com/)
+""")
 #try:
 #    mostrar_instrucciones()
 #    st.success("✅ módulo instruccapp.py cargado correctamente")
@@ -34,11 +38,7 @@ with st.sidebar:
 
 # Módulo de anuncios debajo del título proximamente ...
 mostrar_anuncios()
-#Autor pie de pagina
-st.markdown("""
----
-📌 **Autor:** [Caromhe](https://github.com/Caromhe)
-""")
+
 # El resto de tu app continúa normalmente
 
 # Selección del modo
@@ -97,6 +97,7 @@ if expr_str:
         ax.set_ylabel("f(x)")
         ax.legend()
         st.pyplot(fig)
+    #Autor pie de pagina
 
     except Exception as e:
         st.error(f"⚠️ Error al procesar la función: {e}")
