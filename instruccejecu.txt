@@ -30,6 +30,9 @@ en este caso:
 
 git add README.md
 
+    luego
+    git commit -m "Resuelto conflicto en README.md"
+    git push origin main
 ya que si ponia 
 
 git add .
