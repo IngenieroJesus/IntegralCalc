@@ -1,4 +1,5 @@
 Dentro de cada main modificado en una nueva terminal ejecutar:
+(Nota: Esto solo sirve para ejecutarlo localmente dentro del ordenador gracias a la libreria streamlit)
 
 .\venv\Scripts\activate
 

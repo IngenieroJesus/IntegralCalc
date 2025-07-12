@@ -5,13 +5,17 @@ import numpy as np
 from clasificacion import identificar_tipo
 from procedimientos import generar_pasos
 from donaciones import mostrar_donaciones
+from instruccapp import mostrar_instrucciones
+
+
+
 # Definimos la variable simbólica
 x = Symbol('x')
 
 # Título principal
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
 st.title("🧮 Calculadora de Integrales")
-
+mostrar_instrucciones()
 # Barra lateral dedicada a apoyo
 with st.sidebar:
     mostrar_donaciones()
