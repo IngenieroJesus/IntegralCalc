@@ -14,9 +14,7 @@ st.title("🧮 Calculadora de Integrales - Paso a Paso")
 
 from donaciones import mostrar_donaciones
 
-# Configuración visual
-st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
-st.title("🧮 Calculadora de Integrales - Paso a Paso")
+
 
 # Sección de anuncios destacados
 
