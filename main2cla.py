@@ -15,6 +15,7 @@ x = Symbol('x')
 # Título principal
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
 st.title("🧮 Calculadora de Integrales")
+#mostrar instrucciones
 mostrar_instrucciones()
 # Barra lateral dedicada a apoyo
 with st.sidebar:
