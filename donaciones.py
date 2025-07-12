@@ -9,4 +9,4 @@ def mostrar_donaciones():
     - 📱 **Yape / Plin**: Escanea el código QR aquí abajo
     - 🏦 **Transferencia bancaria**: *CCI: 123-456-789-0000*
     """)
-    st.image("yape_qr.png", caption="Escanea para donar", use_column_width=True)
+    st.image("yape_qr.png", caption="Escanea para donar", use_container_width=True)
