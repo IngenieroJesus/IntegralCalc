@@ -13,9 +13,9 @@ def mostrar_instrucciones():
         - Para **elevar al cuadrado**, usa `**`  
           Ejemplo: `x**2` significa \\( x^2 \\)
         
-        - Para **Usar Raiz Cuadrada**, usa la expresion `sqrt`
+        - Para **Usar Raiz Cuadrada**, usa la expresion `sqrt`  
           Ejemplo: Uno sobre raiz cuadrada de x elevado al cuadrado
-                    1/qrt(x**2)
+          Escribe: 1/qrt(x**2)
 
         - Para funciones como seno y coseno, escribe `sin(x)`, `cos(x)`, etc.
 
