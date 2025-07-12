@@ -11,3 +11,28 @@ git add .
 >> git commit -m "Comentario de archivos actualizados"
 >> git push origin main
 _________________________________________________
+En ocasiones al modificar aumentar un archivo o arreglar algo
+
+no nos dejara hacer "pull"ni"push" ni menos 
+
+git add .
+>> git commit -m "Comentario de archivos actualizados"
+>> git push origin main
+
+entonces debemos hacer git status y nos muestrara el archivo en conflicto
+generlamente porque se modifica allá en github y acá localmente y hay que borrar >>><<<< esas cosas 
+por ejemplo el ultimo error fue porque en github en la pagina modifique el README.md 
+y no me dejaba entonces para arreglarlo
+se debe modificar localmente como debe ser luego quiza siga apreciendo el error
+es porque no se guardo con el comando git commit
+por eso cuando ya este modificado el archivo localmente o donde se este trabjando insertar el comando para que se guarde realmente
+en este caso:
+
+git add README.md
+
+ya que si ponia 
+
+git add .
+
+es para guardar todo simplemente el programa me seguira botando error nose 
+es como si quisiera que solucione solo ese error especificamente bueno esa es la respuesta.
