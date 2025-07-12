@@ -20,8 +20,7 @@ with st.sidebar:
 # mostrar_anuncios()
 
 # El resto de tu app continúa normalmente
-modo = st.radio("Selecciona el tipo de cálculo:", ["Integral indefinida", "Área bajo la curva"])
-...
+
 # Selección del modo
 modo = st.radio("Selecciona el tipo de cálculo:", ["Integral indefinida", "Área bajo la curva"])
 
