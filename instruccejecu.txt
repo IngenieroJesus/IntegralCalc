@@ -8,8 +8,8 @@ _________________________________________________
 Para actualizar O SUBIR la aplicacion en GITHUB:
 
 git add .
->> git commit -m "Comentario de archivos actualizados"
->> git push origin main
+git commit -m "Comentario de archivos actualizados"
+git push origin main
 _________________________________________________
 En ocasiones al modificar aumentar un archivo o arreglar algo
 
