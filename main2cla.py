@@ -12,6 +12,25 @@ x = Symbol('x')
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
 st.title("🧮 Calculadora de Integrales - Paso a Paso")
 
+from donaciones import mostrar_donaciones
+
+# Configuración visual
+st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
+st.title("🧮 Calculadora de Integrales - Paso a Paso")
+
+# Sección de anuncios destacados
+
+
+# Layout con columna principal y columna de donaciones
+col1, col2 = st.columns([4, 1])
+
+with col1:
+    # Todo el contenido de cálculo, inputs, resultados, pasos y gráficas
+    ...
+    
+with col2:
+    # Sección de apoyo y donaciones
+    mostrar_donaciones()
 # Selección del modo
 modo = st.radio("Selecciona el tipo de cálculo:", ["Integral indefinida", "Área bajo la curva"])
 
