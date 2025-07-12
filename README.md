@@ -12,4 +12,4 @@ Esta aplicación permite resolver integrales indefinidas y calcular áreas bajo 
 
 ## Despliegue
 
-Puedes probar la aplicación en Streamlit Cloud: *(enlace una vez publicada)*
+Puedes probar la aplicación en Streamlit Cloud: *(https://integralcalc.streamlit.app/)*
