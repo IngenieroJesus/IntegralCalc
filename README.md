@@ -16,7 +16,7 @@ Esta aplicación web te permite resolver integrales simbólicas, calcular áreas
 
 Visita la app directamente en Streamlit Cloud:
 
-🔗 [https://tuusuario-integralcalc.streamlit.app](https://tuusuario-integralcalc.streamlit.app)
+🔗 [https://integralcalc.streamlit.app]
 
 Solo escribe tu función usando la variable `x` y selecciona si deseas resolver una integral indefinida o calcular el área bajo la curva. Ejemplos válidos:
 
