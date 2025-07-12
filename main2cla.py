@@ -15,9 +15,15 @@ x = Symbol('x')
 # Título principal
 st.set_page_config(page_title="Calculadora de Integrales", page_icon="🧮")
 st.title("🧮 Calculadora de Integrales")
+#try:
+#    mostrar_instrucciones()
+#    st.success("✅ módulo instruccapp.py cargado correctamente")
+#except Exception as e:
+#    st.error(f"❌ Error al cargar mostrar_instrucciones(): {e}")
+
+# Mostrar instrucciones (una sola vez)
 try:
     mostrar_instrucciones()
-    st.success("✅ módulo instruccapp.py cargado correctamente")
 except Exception as e:
     st.error(f"❌ Error al cargar mostrar_instrucciones(): {e}")
 #mostrar instrucciones
